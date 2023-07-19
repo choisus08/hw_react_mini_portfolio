@@ -12,21 +12,92 @@ code {
     monospace;
 }
 
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em
+}
+
+.Profile-main {
+  text-align: left;
+}
+
 .Navbar {
   list-style: none;
-  margin: 10px;
-  padding: 0;
+  display: flex;
+  gap: 1em
+}
+
+.Projects {
   display: flex;
   justify-content: space-evenly;
-  background-color: rgb(244, 220, 185);
-  padding: 10px;
+  padding: 3em
+}
+
+.Card {
+  box-shadow: 0 0 10px black;
+  margin: auto;
+  width: 22em;
+  height: 25em
+  
 }
 
 .Card-info {
   list-style: none;
+  padding: 1em;
+
+}
+
+.Profile-icon {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+
 }
 
 .Img {
   width: 300px;
   height: auto
+}
+
+.Footer {
+  display: block;
+  padding: 4em;
+}
+
+.Up-arrow {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 80px;
+  align-items: center;
+  width: 3em;
+  height: 3em;
+}
+
+.Bottom-navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+
+@media screen and (max-width: 750px) {
+  .Projects {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2em;
+    padding: 0;
+  }
+
+  .Card {
+    height: 350px;
+    width: 300px
+  }
+
+  .Img {
+    width: 250px;
+  }
+
 }
