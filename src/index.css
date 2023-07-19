@@ -21,3 +21,12 @@ code {
   background-color: rgb(244, 220, 185);
   padding: 10px;
 }
+
+.Card-info {
+  list-style: none;
+}
+
+.Img {
+  width: 300px;
+  height: auto
+}
