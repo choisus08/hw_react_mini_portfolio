@@ -52,7 +52,7 @@ code {
   box-shadow: 0 0 10px black;
   margin: auto;
   width: 22em;
-  height: 25em
+  height: 24em
   
 }
 
@@ -115,7 +115,7 @@ code {
   }
 
   .Card {
-    height: 350px;
+    height: 330px;
     width: 300px
   }
 
